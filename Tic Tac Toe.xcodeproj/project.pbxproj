@@ -13,6 +13,9 @@
 		73FD7BD41BA9F3120036CA9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73FD7BD31BA9F3120036CA9A /* Images.xcassets */; };
 		73FD7BD71BA9F3120036CA9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73FD7BD51BA9F3120036CA9A /* LaunchScreen.xib */; };
 		73FD7BE31BA9F3120036CA9A /* Tic_Tac_ToeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73FD7BE21BA9F3120036CA9A /* Tic_Tac_ToeTests.swift */; };
+		73FD7BEF1BA9F4450036CA9A /* board.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FD7BEC1BA9F4450036CA9A /* board.png */; };
+		73FD7BF01BA9F4450036CA9A /* cross.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FD7BED1BA9F4450036CA9A /* cross.png */; };
+		73FD7BF11BA9F4450036CA9A /* nought.png in Resources */ = {isa = PBXBuildFile; fileRef = 73FD7BEE1BA9F4450036CA9A /* nought.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		73FD7BDC1BA9F3120036CA9A /* Tic Tac ToeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tic Tac ToeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		73FD7BE11BA9F3120036CA9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		73FD7BE21BA9F3120036CA9A /* Tic_Tac_ToeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tic_Tac_ToeTests.swift; sourceTree = "<group>"; };
+		73FD7BEC1BA9F4450036CA9A /* board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = board.png; sourceTree = "<group>"; };
+		73FD7BED1BA9F4450036CA9A /* cross.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cross.png; sourceTree = "<group>"; };
+		73FD7BEE1BA9F4450036CA9A /* nought.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nought.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				73FD7BCC1BA9F3120036CA9A /* AppDelegate.swift */,
 				73FD7BCE1BA9F3120036CA9A /* ViewController.swift */,
 				73FD7BD01BA9F3120036CA9A /* Main.storyboard */,
+				73FD7BEC1BA9F4450036CA9A /* board.png */,
+				73FD7BED1BA9F4450036CA9A /* cross.png */,
+				73FD7BEE1BA9F4450036CA9A /* nought.png */,
 				73FD7BD31BA9F3120036CA9A /* Images.xcassets */,
 				73FD7BD51BA9F3120036CA9A /* LaunchScreen.xib */,
 				73FD7BCA1BA9F3120036CA9A /* Supporting Files */,
@@ -156,6 +165,7 @@
 		73FD7BBF1BA9F3120036CA9A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = RLDT;
 				TargetAttributes = {
@@ -192,6 +202,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73FD7BF01BA9F4450036CA9A /* cross.png in Resources */,
+				73FD7BEF1BA9F4450036CA9A /* board.png in Resources */,
+				73FD7BF11BA9F4450036CA9A /* nought.png in Resources */,
 				73FD7BD21BA9F3120036CA9A /* Main.storyboard in Resources */,
 				73FD7BD71BA9F3120036CA9A /* LaunchScreen.xib in Resources */,
 				73FD7BD41BA9F3120036CA9A /* Images.xcassets in Resources */,
@@ -409,6 +422,7 @@
 				73FD7BE81BA9F3120036CA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		73FD7BE91BA9F3120036CA9A /* Build configuration list for PBXNativeTarget "Tic Tac ToeTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +431,7 @@
 				73FD7BEB1BA9F3120036CA9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
